@@ -1,0 +1,16 @@
+.posts {
+    width: 90%;
+    max-width: 70rem;
+    margin: 0 auto;
+  }
+  
+.posts h1 {
+    font-size: xxx-large;
+    text-align: center;
+}
+
+.gradient {
+    background: -webkit-linear-gradient(blue, darkorchid);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

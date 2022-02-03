@@ -1,7 +1,8 @@
+import PostContent from "../../components/posts/post-detail/PostContent";
 
 const PostDetailPage = () => {
     return (
-        <h1>Welcome to the post page!</h1>
+        <PostContent />
     )
 }
 
