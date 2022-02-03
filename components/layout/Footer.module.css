@@ -1,0 +1,28 @@
+.footer {
+    display: flex;
+    flex: 1;
+    padding: 1rem 0;
+    margin-top: 5vh;
+    /* border-top: 1px solid #eaeaea; */
+    /* border-top: 4px solid;
+    border-image: linear-gradient(to right, darkblue, darkorchid) 1; */
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, darkblue, darkorchid);
+}
+
+.footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.image {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: white;
+}
