@@ -5,6 +5,9 @@
     padding: 1rem;
     background-image: linear-gradient(to right, darkblue, darkorchid);
     color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .logo {
