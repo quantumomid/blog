@@ -6,6 +6,7 @@ A [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](h
 - Next.js
 - React-Markdown
 - Gray-Matter
+- React Syntax Highligter
 
 ## Getting Started
 
