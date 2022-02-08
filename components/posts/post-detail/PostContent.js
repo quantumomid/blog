@@ -22,7 +22,7 @@ const PostContent = ({ post }) => {
         // },
         p(paragraph) {
             const { node } = paragraph;
-            console.log(node.children[0])
+            // console.log(node.children[0])
             if(node.children[0].tagName === "img"){
                 const image = node.children[0];
                 return (

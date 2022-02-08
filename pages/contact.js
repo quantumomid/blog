@@ -1,7 +1,12 @@
+import { Fragment } from "react";
+import CustomHead from "../components/meta/CustomHead";
 
 const ContactPage = () => {
     return (
-        <h1>Get in touch!</h1>
+        <Fragment>
+            <CustomHead title="Omiblog | Contact" />
+            <h1>Get in touch!</h1>
+        </Fragment>
     )
 }
 

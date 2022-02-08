@@ -1,3 +1,5 @@
+import { Fragment } from "react";
+import CustomHead from "../../components/meta/CustomHead";
 import PostContent from "../../components/posts/post-detail/PostContent";
 import { getPostData, getPostsFiles } from "../../helpers/postsUtils";
 
@@ -30,9 +32,12 @@ export const getStaticProps = (context) => {
 }
 
 const PostDetailPage = ({ post }) => {
-    // console.log(post);
+    // console.log(post); 
     return (
-        <PostContent post={post} />
+        <Fragment>
+            <CustomHead title={post.title} descriptionMetaContent={post.excerpt} />
+            <PostContent post={post} />
+        </Fragment>
     )
 }
 
