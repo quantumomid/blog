@@ -48,15 +48,14 @@ const ContactForm = () => {
             await sendContactData(contactData);
     
             setSubmissionStatus("success");
+            //RESET
+            setName("");
+            setEmail("");
+            setMessage("");
         } catch (error) {
             setSubmissionStatus("error");
             setSubmissionError(error.message);
         }
-
-        //RESET
-        setName("");
-        setEmail("");
-        setMessage("");
     }
 
     let notification;
